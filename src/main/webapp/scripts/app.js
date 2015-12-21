@@ -1,7 +1,5 @@
 'use strict';
 
-/* App Module */
-
 var fuegoApp = angular.module('fuegoApp', ['http-auth-interceptor', 'tmh.dynamicLocale',
     'ngResource', 'ngRoute', 'ngCookies', 'fuegoAppUtils', 'pascalprecht.translate', 'truncate']);
 
